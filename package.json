@@ -1,0 +1,25 @@
+{
+  "name": "lab-19-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-billybunn/lab-19-logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-billybunn/lab-19-logger/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-billybunn/lab-19-logger#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.2",
+    "faker": "^4.1.0",
+    "jest": "^24.7.1"
+  }
+}
