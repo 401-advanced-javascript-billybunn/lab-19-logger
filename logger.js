@@ -2,11 +2,11 @@
 
 const Q = require('@nmq/q/client');
 
-const files = new Q('files');
-files.subscribe('save', (payload) => {
+const file = new Q('file');
+file.subscribe('save', (payload) => {
   console.log('save happened:', payload);
 });
-files.subscribe('error', (payload) => {
+file.subscribe('error', (payload) => {
   console.log('error happened:', payload);
 });
 
